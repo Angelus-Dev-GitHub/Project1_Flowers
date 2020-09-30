@@ -1,0 +1,70 @@
+footer {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1200px;
+    margin: auto;
+    background-color:  #87f182 ;
+    height: 200px;
+}
+.footer_social_network{
+    flex: 1 ;
+    height: auto;
+
+}
+.footer_social_network-instagram{
+    display: flex;
+    align-items: center;
+
+
+ }
+ .footer_social_network-facebook{
+    display: flex;
+    align-items: center;
+ }
+.footer_social_network-twitter{
+    display: flex;
+    align-items: center;
+}
+footer h3{
+    font-size: 15px;
+    margin:3px;
+
+
+}
+    
+
+.footer_our_shops{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 200px;
+    flex: 2;
+
+
+}
+.footer_social_network {
+    height: 40px;
+}
+footer img{
+    height:20px;
+    width:20px;
+}
+
+
+.footer_our_shops-p{
+    padding-right: 250px;
+}
+
+.footer_about_us li{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-right: 100px;
+
+}
+.footer_about_us {
+    flex: 1;
+}
