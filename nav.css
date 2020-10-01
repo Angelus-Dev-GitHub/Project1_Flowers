@@ -22,6 +22,7 @@
         display: flex;
         position: fixed;
         top: 0;
+        left:10px;
         min-width: 300px;
         height: 50px;
         border: 0px solid;
@@ -37,6 +38,7 @@
         overflow: hidden;
         position: fixed;
         bottom: 0;
+        left:10px;
         border: 0px solid;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
@@ -64,7 +66,7 @@
         transition-duration: 0.5s;
     }
     nav input:not(:checked)~.burger span:nth-last-child(2) {
-        transform: rotate(0deg) translate(0, 0x);
+        transform: rotate(0deg) translate(0px, 0px);
         transition-duration: 0.5s;
     }
     nav input {
@@ -85,6 +87,7 @@
         background: rgb(45, 45, 45);
         border-radius: 4px;
         z-index: 2;
+        box-shadow:  0px 0px 1px 1px black;
     }
     .burger {
         position: absolute;
@@ -93,7 +96,8 @@
     }
     #navbar {
         display: none;
-        padding-top: 70px;
+        padding-top: 50px;
+        padding-left:0;
     }
     .current-page {
         position: absolute;
@@ -104,7 +108,7 @@
     }
     #navbar li {
         font-family: 'Raleway', sans-serif;
-
+        box-shadow:  1px 1px 5px 1px grey;
         list-style-type: none;
         padding: 16px;
         margin: 4px;
@@ -146,7 +150,7 @@
         display: none;
     }
     #navbar {
-
+        margin-top: 0px;;
         display: flex;
         width: 1200px;
         justify-content: space-between;
@@ -207,4 +211,3 @@
         text-align: center;
     }
 
-}
