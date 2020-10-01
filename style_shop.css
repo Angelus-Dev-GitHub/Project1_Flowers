@@ -1,0 +1,42 @@
+section {
+    font-family: 'Raleway', sans-serif;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title-of-the-page {
+    font-family: 'Calligraffitti', cursive;
+    text-align: center;
+}
+
+.shop_article {
+    display: flex;
+    flex-direction: row;
+}
+
+.shop_image {
+    max-width: 400px;
+    height: auto;
+}
+
+.shop_aside {
+    font-family: 'Raleway', sans-serif;
+    margin: 40px;
+}
+
+@media screen and (max-width: 320px){
+    .shop_aside {
+        display: none;
+    }
+
+    .shop_article {
+        max-width: 300px;
+    }
+
+    .shop_image {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
