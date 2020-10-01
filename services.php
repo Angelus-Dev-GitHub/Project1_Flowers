@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D'une fleur à l'autre</title>
     <link rel="stylesheet" href="services-style.css">
+    <link rel="stylesheet" href="./footer/footer.css">
+    <link rel="stylesheet" href="nav.css">
     <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
+<?php include 'nav.php'; ?>
+<main>
     <section class="services_title">
-        <h1>Nos bouquets</h1>
+        <h1 class="title-of-the-page">Nos bouquets</h1>
     </section>
     <section class="services_section">
         <article class="services_section-all-bouquets">
@@ -53,5 +57,11 @@
         </article>
         <article class="services_section-event-bouquets"></article>
     </section>
+    <footer>
+        <?php include './footer/footer.php'; ?>
+
+    </footer>
+</main>
+<script src="nav.js"></script>
 </body>
 </html>
