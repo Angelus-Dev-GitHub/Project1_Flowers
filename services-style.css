@@ -1,0 +1,122 @@
+body {
+    font-family: 'Calligraffitti', cursive;
+    color:rgb(126, 126, 126);
+    max-width: 1200px;
+    margin: auto;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border-radius: 30%;
+}
+
+.services_section-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: auto;
+}
+.services_section-left-image {
+    flex : 1;
+    justify-content: center;
+}
+
+.services_section-left-image:hover {
+    opacity: 0.9;
+    color: rgba(246, 255, 168, 0.842);
+    transform: scale(1.1) rotate3d(1.2, -0.5, 0.5, 10deg);
+    transition: all .3s;
+}
+
+.services_section-left-description {
+    flex : 3;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.services_section-right {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    height: auto;
+}
+.services_section-right-image {
+    flex : 1;
+    justify-content: center;
+}
+
+.services_section-right-image:hover {
+    opacity: 0.9;
+    color: rgba(246, 255, 168, 0.842);
+    transform: scale(1.1) rotate3d(1.2, -0.5, 0.5, -10deg);
+    transition: all .3s;
+}
+
+.services_section-right-description {
+    flex : 3;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 415px) {
+    .services_section-left {
+        display: flex;
+        flex-direction: column;
+        margin : auto;
+    }
+    .services_section-left-image {
+        display: flex;
+        justify-content: center;
+        margin: center;
+    }
+
+    .services_section-left-image img {
+        padding: 10px;
+        max-width: 80%;
+        margin: auto;
+    }
+    .services_section-left-image:hover {
+        transform: none;
+    }
+    .services_section-left-description,
+    .services_section-left-description h2 {
+        margin: auto;
+        justify-content: space-around;
+        padding-bottom: 30px;
+    }
+    .services_section-left-description p {
+        display: none;
+    }
+
+    .services_section-right {
+        flex-direction: column;
+        margin : auto;
+    }
+    .services_section-right-image {
+        display: flex;
+        justify-content: center;
+        margin: center;
+    }
+
+    .services_section-right-image img {
+        padding: 10px;
+        max-width: 80%;
+        margin: auto;
+    }
+    .services_section-right-image:hover {
+        transform: none;
+    }
+    .services_section-right-description,
+    .services_section-right-description h2 {
+        margin: auto;
+        justify-content: space-around;
+        padding-bottom: 30px;
+    }
+    .services_section-right-description p {
+        display: none;
+    }
+}
