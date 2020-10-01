@@ -5,7 +5,7 @@
     .page-container {
         max-width: 1200px;
         margin: auto;
-        background-color: rgb(241, 221, 221);
+        background-color: rgb(248, 242, 242);
     }
 
     .flowers_container {
@@ -65,6 +65,7 @@
         border-radius: 3px;
         alignment: center;
         cursor: pointer;
+        box-shadow:  1px 1px 2px 1px grey;
     }
     .flowers_text h2 {
 
@@ -82,7 +83,7 @@
     .page-container {
         max-width: 300px;
         margin: auto;
-        background-color: rgb(241, 221, 221);
+        background-color: rgb(248, 242, 242);
     }
 
     .flowers_container {
@@ -140,6 +141,7 @@
         border: 0px solid black;
         border-radius: 3px;
         alignment: center;
+        box-shadow:  1px 1px 2px 1px grey;
 
     }
 
