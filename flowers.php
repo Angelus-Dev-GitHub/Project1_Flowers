@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./footer/footer.css">
     <link rel="stylesheet" href="flowersstyle.css">
     <link rel="stylesheet" href="nav.css">
     <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Raleway&display=swap" rel="stylesheet">
@@ -104,6 +105,9 @@
 
             </section>
         </div>
+        <footer>
+            <?php include './footer/footer.php'; ?>
+        </footer>
     </main>
 </div>
 <script src="nav.js"></script>

@@ -17,7 +17,7 @@
         align-items: center;
     }
 
-    img {
+    .flowers_container img {
         border: 1px solid rosybrown;
         border-radius: 30%;
         padding: 10px;
