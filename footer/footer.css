@@ -6,7 +6,7 @@ footer {
     justify-content: space-around;
     max-width: 1200px;
     margin: auto;
-    background-color:  #A36666 ;
+    background-color:  rosybrown ;
     height: 200px;
 }
 .footer_social_network{
@@ -59,7 +59,7 @@ footer img{
     width:35px;
 }
 
-ul{
+.footer_about_us ul{
     display:flex;
     flex-direction: column;
     justify-content: space-around;

@@ -7,16 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D'une fleur à l'autre - Boutique</title>
     <link rel="stylesheet" href="style_shop.css">
+    <link rel="stylesheet" href="./footer/footer.css">
+    <link rel="stylesheet" href="nav.css">
     <<style>
         @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Raleway&display=swap');
     </style>
 </head>
 <body>
+<?php include 'nav.php'; ?>
 <main>
-    <header>
-        <?php include 'nav.php'; ?>
 
-    </header>
+
+
+
     <section class="shop_section">
         <h1 class="title-of-the-page">BOUTIQUE</h1>
         <article class="shop_article">
@@ -46,9 +49,10 @@
         </article>
     </section>
     <footer>
-        <?php include 'footer.php'; ?>
+        <?php include './footer/footer.php'; ?>
 
     </footer>
 </main>
+<script src="nav.js"></script>
 </body>
 </html>
