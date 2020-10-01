@@ -1,0 +1,30 @@
+*body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.index_section {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    width: 1200px;
+    margin: auto;
+}
+
+.title-of-the-page {
+    font-family: 'Calligraffitti', cursive;
+    text-align: center;
+}
+
+.index_banner {
+    background-image: url(https://images.unsplash.com/photo-1587317997367-3d47566f9528?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) ;
+    max-width: 1200px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+}
+
+.index_banner p {
+    margin: 30% 2%;
+}
