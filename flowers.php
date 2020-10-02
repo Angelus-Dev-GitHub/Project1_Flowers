@@ -18,7 +18,7 @@
     <main>
         <div class="page-container">
             <h1 class="title-of-the-page"> Boutique en ligne </h1>
-            <p class="flowers_subtitle">Composez votre propre bouquet !</p>
+            <p class="flowers_subtitle">Composez votre bouquet !</p>
             <section class="flowers_container">
                 <div class="flowers_rose flower_unite-container" data-aos="zoom-in">
                     <img src="https://images.unsplash.com/photo-1576857990591-aad2585f34d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="">
