@@ -15,12 +15,13 @@
 
 </head>
 <body>
-    <nav>
+
         <?php include ('nav.php');?>
-    </nav>
+
+    <main>
     <section class="contact">
         <div class="contact_header">
-            <h1>
+            <h1 class = "title-of-the-page">
                 Contactez nous
             </h1>
 
@@ -99,7 +100,11 @@
                     </form>
         </div>
     </section>
+<footer>
     <?php include('./footer/footer.php'); ?>
+</footer>
+    </main>
+    <script src = "nav.js"> </script>
     </body>
 </html>
 

@@ -1,4 +1,4 @@
-const message = "Thank you for submitting your request. The crew will respond shortly.";
+const message = "Merci d'avoir soumis votre question. L'équipe répondra sous peu.";
 
 document
     .getElementById("contactForm")

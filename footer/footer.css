@@ -74,13 +74,13 @@ footer img{
 
     flex: 1;
 }
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 404px){
     footer{
         display: none;
     }
 
 }
-@media only screen and (min-width:576px){
+@media only screen and (min-width:404px){
     footer{
         text-align: center;
         flex-basis: 100%;
