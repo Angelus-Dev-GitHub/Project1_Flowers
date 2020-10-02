@@ -1,73 +1,164 @@
-body{
-    max-width: 1200px;
-    margin: auto;
 
-}
-.contact_header{
-    background-image:url("https://cdn.pixabay.com/photo/2014/04/14/20/11/japanese-cherry-trees-324175_960_720.jpg");
-    height: 500px;
-    background-size: cover;
+    body {
+        max-width: 1200px;
+        margin: auto;
 
-}
-.contact_header h1{
-    font-family: 'Calligraffitti', cursive;
-    text-align: center;
-    font-size: 80px;
-    color: maroon;
-    padding-top: 200px;
-}
+    }
 
-.contact h2{
-    font-family: cursive;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 400;
-    text-transform: initial;
-    line-height: 40px;
-    letter-spacing: .4px;
-    color: #71bf45;
-    text-align: center;
-}
-.contact-map-and-form{
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-}
-.contact_contact_us-Ou {
-    text-align: center;
-    border-top-width: 5px;
-    border-top-style: solid;
-    border-bottom-width: 5px;
-    border-bottom-style: solid;
-}
+    .contact_header {
+        background-image: url("https://cdn.pixabay.com/photo/2014/04/14/20/11/japanese-cherry-trees-324175_960_720.jpg");
+        height: 500px;
+        background-size: cover;
 
-.contact_contact_us_our_contact_infomation-adress{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-.contact_contact_us_our_contact_infomation-phone-number{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-.contact_contact_us_our_contact_information-mail{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-.contact img{
-    width: 30px;
-    height: 30px;
-}
-#contactForm{
-    display: grid;
-    width: 1000px;
-    justify-content: center;
-    padding-left: 90px;
-}
+    }
+
+    .contact_header h1 {
+        font-family: 'Calligraffitti', cursive;
+        text-align: center;
+        font-size: 80px;
+        color: maroon;
+        padding-top: 200px;
+    }
+
+    .contact h2 {
+        font-family: cursive;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: initial;
+        line-height: 40px;
+        letter-spacing: .4px;
+        color: #71bf45;
+        text-align: center;
+    }
+
+    .contact-map-and-form {
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+    }
+
+    .contact_contact_us-Ou {
+        text-align: center;
+        border-top-width: 5px;
+        border-top-style: solid;
+        border-bottom-width: 5px;
+        border-bottom-style: solid;
+    }
+
+    .contact_contact_us_our_contact_infomation-adress {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contact_contact_us_our_contact_infomation-phone-number {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contact_contact_us_our_contact_information-mail {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contact img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #contactForm {
+        display: grid;
+        width: 1000px;
+        justify-content: center;
+        padding-left: 90px;
+    }
+
+
+    body {
+        max-width: 1200px;
+        margin: auto;
+
+    }
+
+    .contact_header {
+        background-image: url("https://cdn.pixabay.com/photo/2014/04/14/20/11/japanese-cherry-trees-324175_960_720.jpg");
+        height: 500px;
+        background-size: cover;
+
+    }
+
+    .contact_header h1 {
+        font-family: 'Calligraffitti', cursive;
+        text-align: center;
+        font-size: 80px;
+        color: maroon;
+        padding-top: 200px;
+    }
+
+    .contact h2 {
+        font-family: cursive;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: initial;
+        line-height: 40px;
+        letter-spacing: .4px;
+        color: #71bf45;
+        text-align: center;
+    }
+
+    .contact-map-and-form {
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+    }
+
+    .contact_contact_us-Ou {
+        text-align: center;
+        border-top-width: 5px;
+        border-top-style: solid;
+        border-bottom-width: 5px;
+        border-bottom-style: solid;
+    }
+
+    .contact_contact_us_our_contact_infomation-adress {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contact_contact_us_our_contact_infomation-phone-number {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contact_contact_us_our_contact_information-mail {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contact img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #contactForm {
+        display: grid;
+        width: 1000px;
+        justify-content: center;
+        padding-left: 90px;
+    }
+
 
 
