@@ -5,7 +5,8 @@ body {
     margin: auto;
 }
 
-img {
+.services_section-left-image img,
+.services_section-right-image img {
     max-width: 300px;
     max-height: 300px;
     width: auto;
