@@ -1,7 +1,7 @@
 <section class="navbar_desktop">
         <header>
             <div class="logo">
-                <h1>LOGO</h1>
+                <img class="logopictureMobile" src="logo.jpg" height="55px" width="55px" alt="Logo picture">
 
                 <h2 class="current-page"></h2>
             </div>
@@ -19,6 +19,7 @@
         </header>
 
         <ul id="navbar">
+            <img class="logopicture" src="logo.jpg" height="100px" width="100px" alt="Logo picture">
             <a href="index.php">
                 <li> Accueil</li>
             </a>
