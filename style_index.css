@@ -28,3 +28,54 @@ header {
 .index_banner p {
     margin: 30% 2%;
 }
+
+h2{
+    text-align: center;
+}
+
+.index_composition{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.index_composition_bouquet img {
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+}
+
+.index_composition_bouquet h3{
+    text-align: center;
+
+}
+
+@media screen and (max-width: 450px){
+    .index_section{
+        max-width: 320px;
+    }
+
+    .index_banner {
+        background-image: none;
+    }
+
+    .index_composition{
+        flex-direction: column;
+    }
+
+    .index_composition_bouquet{
+        max-width: 320px;
+    }
+
+    .index_composition_bouquet img {
+        max-width: 320px;
+        height: auto;
+    }
+
+
+
+
+
+
+
+
+}
