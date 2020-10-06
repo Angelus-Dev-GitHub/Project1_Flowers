@@ -9,8 +9,8 @@ body {
     background-color: rgb(248, 242, 242);
 }
 
-.services_section-left-image img,
-.services_section-right-image img {
+.services_section-left-image a img,
+.services_section-right-image a img {
     max-width: 300px;
     max-height: 300px;
     width: auto;
@@ -44,12 +44,23 @@ body {
 }
 
 .services_section-left-description-empty {
-    flex: 2;
+    flex: 1.5;
 }
 
 .services_section-left-description h2,
 .services_section-left-description p {
     text-align: left;
+}
+
+.services_section-left-description p a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.services_section-left-description p a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: deeppink;
 }
 
 .services_section-right {
@@ -77,12 +88,21 @@ body {
 }
 
 .services_section-right-description-empty {
-    flex: 2;
+    flex: 1.5;
 }
 
 .services_section-right-description h2,
 .services_section-right-description p {
     text-align: right;
+}
+
+@media only screen and (max-width: 780px) {
+    .services_section-left-description-empty {
+        flex: 0.2;
+    }
+    .services_section-right-description-empty {
+        flex: 0.2;
+    }
 }
 
 @media only screen and (max-width: 415px) {
@@ -97,10 +117,11 @@ body {
         margin: center;
     }
 
-    .services_section-left-image img {
-        padding: 10px;
+    .services_section-left-image a,
+    .services_section-left-image a img {
+        padding: 10px 5px;
         max-width: 80%;
-        margin: auto;
+        margin: center;
     }
     .services_section-left-image:hover {
         transform: none;
@@ -114,7 +135,7 @@ body {
     .services_section-left-description p {
         display: none;
     }
-    
+
     .services_section-right {
         flex-direction: column;
         margin : auto;
@@ -125,10 +146,11 @@ body {
         margin: center;
     }
 
-    .services_section-right-image img {
-        padding: 10px;
+    .services_section-right-image a,
+    .services_section-right-image a img {
+        padding: 10px 5px;
         max-width: 80%;
-        margin: auto;
+        margin: center;
     }
     .services_section-right-image:hover {
         transform: none;

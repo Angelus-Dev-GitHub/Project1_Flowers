@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3517c31-7d2e-474f-b809-5c41b6f20c2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/services-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/services.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iHU3nrezfumB0SD8UEb7ZDrEkG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,9 +45,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -66,6 +71,11 @@
       <workItem from="1601567094959" duration="1081000" />
       <workItem from="1601568176798" duration="9000" />
       <workItem from="1601568196053" duration="869000" />
+      <workItem from="1601646445365" duration="1239000" />
+      <workItem from="1601889547885" duration="534000" />
+      <workItem from="1601908448682" duration="1240000" />
+      <workItem from="1601982843311" duration="635000" />
+      <workItem from="1601986601465" duration="1363000" />
     </task>
     <servers />
   </component>
@@ -93,6 +103,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="753" y="317" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1601568173987" />
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1601648545432">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1601648545432" />
     <state x="660" y="248" key="run.anything.popup" timestamp="1601586165296">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
