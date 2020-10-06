@@ -26,6 +26,7 @@
                     <p>Retrouvez nos bouquets pour fleurir votre mariage. Plusieurs compositions sont à votre disposition. Des bouquets de notre atelier et des bouquets suivant vos envies.</p>
                     <p>Contactez-nous pour plus de prestations </p>
                 </div>
+                <div class="services_section-left-description-empty"></div>
             </div>
             <div class="services_section-right">
                 <div class="services_section-right-image">
@@ -35,6 +36,7 @@
                     <h2>Bouquets pour les amoureux</h2>
                     <p>Tous nos bouquets pour la Saint-Valentin, pour offrir à votre femme, conjointe, maîtresse ou pour vous faire pardonner</p>
                 </div>
+                <div class="services_section-right-description-empty"></div>
             </div>
             <div class="services_section-left">
                 <div class="services_section-left-image">
@@ -44,6 +46,7 @@
                     <h2>Bouquets d'Halloween</h2>
                     <p>Envie d'offrir un bouquet pour faire peur aux citrouilles ? Jetez un oeil à nos compositions spéciales</p>
                 </div>
+                <div class="services_section-left-description-empty"></div>
             </div>
             <div class="services_section-right">
                 <div class="services_section-right-image">
@@ -53,6 +56,7 @@
                     <h2>Bouquets pour égayer votre maison</h2>
                     <p>Votre intérieur est morose ? Offrez-lui des fleurs. </p>
                 </div>
+                <div class="services_section-right-description-empty"></div>
             </div>
         </article>
         <article class="services_section-event-bouquets"></article>
