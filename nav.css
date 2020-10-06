@@ -188,7 +188,7 @@
         vertical-align: middle;
         vertical-align: middle;
         font-size: 1em;
-        font-weight: bold;
+
         background-color: white;
         box-shadow:  1px 1px 5px 1px grey;
     }
@@ -196,7 +196,7 @@
         transition: background-color 0.5s ease;
         background-color: rgb(241, 221, 221);
 
-        font-weight: bold;
+
     }
     #navbar img {
         margin-right: 310px;

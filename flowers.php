@@ -105,15 +105,15 @@
                 <section class="basket">
                     <h2 >Votre panier</h2>
                     <ul id="basket-list">
-                        <li id="rose-basketitem"><span id="rose-delete" class="delete-button"> X </span><b>Rose</b> :  <span id="rose-quantity"> 0 </span> ......................€ <span id="rose-amount"> 0 </span> </li>
-                        <li id="jon-basketitem"> <span id="jon-delete" class="delete-button"> X </span> <b>Jonquille </b> :  <span id="jon-quantity"> 0 </span> ......................€ <span id="jon-amount"> 0 </span> </li>
-                        <li id="anem-basketitem"> <span id="anem-delete" class="delete-button"> X </span><b>Anémone </b> :  <span id="anem-quantity"> 0 </span> ......................€ <span id="anem-amount"> 0 </span> </li>
-                        <li id="oeil-basketitem"><span id="oeil-delete" class="delete-button"> X </span> <b>Œillet </b> :  <span id="oeil-quantity"> 0 </span> ......................€ <span id="oeil-amount"> 0 </span> </li>
-                        <li id="ant-basketitem"> <span id="ant-delete" class="delete-button"> X </span><b>Anthurium</b> :  <span id="ant-quantity"> 0 </span> ......................€ <span id="ant-amount"> 0 </span> </li>
-                        <li id="gla-basketitem"> <span id="gla-delete" class="delete-button"> X </span><b>Glaïeul </b> :  <span id="gla-quantity"> 0 </span> ......................€ <span id="gla-amount"> 0 </span> </li>
-                        <li id="lys-basketitem"> <span id="lys-delete" class="delete-button"> X </span><b>Lys </b> :  <span id="lys-quantity"> 0 </span> ......................€ <span id="lys-amount"> 0 </span> </li>
-                        <li id="tul-basketitem"> <span id="tul-delete" class="delete-button"> X </span><b>Tulipe </b> :  <span id="tul-quantity"> 0 </span> ......................€ <span id="tul-amount"> 0 </span> </li>
-                        <li id="orch-basketitem"><span id="orch-delete" class="delete-button"> X </span><b>Orchidée</b> :  <span id="orch-quantity"> 0 </span> ......................€ <span id="orch-amount"> 0 </span> </li>
+                        <li id="rose-basketitem"><span><b>Rose</b></span><span>x<span id="rose-quantity">0</span></span><span>€<span id="rose-amount">0</span></span><span id="rose-delete" class="delete-button">X</span></li>
+                        <li id="jon-basketitem"><span><b>Jonquille</b></span><span>x<span id="jon-quantity">0</span></span><span>€<span id="jon-amount">0</span></span><span id="jon-delete" class="delete-button">X</span> </li>
+                        <li id="anem-basketitem"><span><b>Anémone</b></span><span>x<span id="anem-quantity">0</span></span><span>€<span id="anem-amount">0</span></span><span id="anem-delete" class="delete-button">X</span></li>
+                        <li id="oeil-basketitem"><span> <b>Œillet</b></span><span>x<span id="oeil-quantity">0</span></span><span>€<span id="oeil-amount">0</span></span><span id="oeil-delete" class="delete-button">X</span> </li>
+                        <li id="ant-basketitem"><span><b>Anthurium</b></span><span>x<span id="ant-quantity">0</span></span><span>€<span id="ant-amount">0</span></span><span id="ant-delete" class="delete-button">X</span></li>
+                        <li id="gla-basketitem"><span><b>Glaïeul</b></span><span>x<span id="gla-quantity">0</span></span><span>€<span id="gla-amount">0</span></span><span id="gla-delete" class="delete-button">X</span></li>
+                        <li id="lys-basketitem"><span><b>Lys</b></span><span>x<span id="lys-quantity">0</span></span><span>€<span id="lys-amount">0</span></span><span id="lys-delete" class="delete-button">X</span> </li>
+                        <li id="tul-basketitem"><span><b>Tulipe</b></span><span>x<span id="tul-quantity">0</span></span><span>€<span id="tul-amount">0</span></span><span id="tul-delete" class="delete-button">X</span></li>
+                        <li id="orch-basketitem"><span><b>Orchidée</b></span><span>x<span id="orch-quantity">0</span></span><span>€<span id="orch-amount">0</span></span><span id="orch-delete" class="delete-button">X</span></li>
 
                     </ul>
 
