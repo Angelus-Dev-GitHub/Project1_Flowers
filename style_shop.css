@@ -24,7 +24,7 @@ section {
     margin: 40px;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 450px){
     .shop_aside {
         display: none;
     }

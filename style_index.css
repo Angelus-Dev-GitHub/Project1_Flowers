@@ -12,9 +12,10 @@ header {
     margin: auto;
 }
 
-.title-of-the-page {
+.title-of-the-page h1{
     font-family: 'Calligraffitti', cursive;
     text-align: center;
+    font-size: 200px;
 }
 
 .index_banner {
@@ -27,4 +28,90 @@ header {
 
 .index_banner p {
     margin: 30% 2%;
+    font-size: 15px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.index_composition{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.index_composition_bouquet img {
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+    border-radius: 30%;
+}*/
+
+.index_composition_bouquet h3{
+    text-align: center;
+    font-size: 15px;
+
+}
+/*-----------------------*/
+.index_composition_bouquet img {
+    width: 450px;
+    height: 450px;
+    margin: 20px;
+    -webkit-filter: grayscale(0) blur(0px);
+    filter: grayscale(0) blur(0px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border-radius: 30%;
+}
+
+.index_composition_bouquet:hover img {
+    width: 600px; /* on affiche l'image au carré */
+    height: 600px;
+    border-radius: 30%;  /* on arrondit l'image */
+    -webkit-transform: rotate(360deg); /* rotation de l'image */
+    transform: rotate(360deg);
+}
+
+/*----------------------*/
+
+@media screen and (max-width: 450px){
+    .index_section{
+        max-width: 320px;
+    }
+
+    .index_banner {
+        background-image: none;
+        height: auto;
+    }
+
+    .index_banner p {
+        margin: 5% 2%;
+    }
+
+    .index_composition{
+        flex-direction: column;
+    }
+
+    .index_composition_bouquet{
+        max-width: 320px;
+    }
+
+    .index_composition_bouquet img {
+        max-width: 300px;
+        height: 300px;
+        margin: 0;
+        border-radius: 30%;
+    }
+
+    .index_composition_bouquet:hover img {
+        width: 320px; /* on affiche l'image au carré */
+        height: 320px;
+        border-radius: 30%; /* on arrondit l'image */
+        -webkit-transform: none; /* rotation de l'image */
+        transform: none;
+    }
+
 }
