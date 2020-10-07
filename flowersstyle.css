@@ -120,6 +120,20 @@
     }
      #basket-list li {
          display:none;
+         width: 340px;
+         padding-left: 10px;
+
+
+     }
+    #basket-list span {
+        width:90px;
+    }
+    #basket-list{
+        padding:0;
+    }
+     .delete-button {
+         font-weight: bold;
+         color: orangered;
 
      }
 
@@ -146,7 +160,7 @@
         flex-direction: column;
         max-width: 300px;
         justify-content: space-around;
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         align-items: center;
     }
 
