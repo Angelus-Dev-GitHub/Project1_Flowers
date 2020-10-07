@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style_shop.css">
     <link rel="stylesheet" href="./footer/footer.css">
     <link rel="stylesheet" href="nav.css">
-    <<style>
+    <style>
         @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Raleway&display=swap');
     </style>
 </head>

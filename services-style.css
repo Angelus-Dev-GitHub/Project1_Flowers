@@ -1,8 +1,20 @@
+:root {
+    --grandTitleSize : 50px;
+    --grandTitleFont : 'Calligraffitti', cursive;
+    --grandTitleColor : black;
+    --mediumTitleSize : 30px;
+    --mediumTitleFont : 'Calligraffitti', cursive;
+    --mediumTitleColor : black;
+    --textBodySize : 15px;
+    --textBodyFont : 'Raleway', sans-serif;
+    --textBodyColor : black;
+}
+
 body {
-    font-family: 'Calligraffitti', cursive;
-    color:rgb(126, 126, 126);
+    font-family: var(--textBodyFont);
+    color: var(--textBodyColor);
     max-width: 1200px;
-    margin: auto;
+    margin: 8px auto;
 }
 
 .services_title {
@@ -32,9 +44,8 @@ body {
 
 .services_section-left-image:hover {
     opacity: 0.9;
-    color: rgba(246, 255, 168, 0.842);
     transform: scale(1.1) rotate3d(1.2, -0.5, 0.5, 10deg);
-    transition: all .3s;
+    transition: all .5s;
 }
 
 .services_section-left-description {
@@ -48,16 +59,17 @@ body {
 }
 
 .services_section-left-description h2,
-.services_section-left-description p {
+.services_section-left-description div,
+.services_section-left-description div p {
     text-align: left;
 }
 
-.services_section-left-description p a {
+.services_section-left-description div p a {
     text-decoration: none;
     color: blueviolet;
 }
 
-.services_section-left-description p a:hover {
+.services_section-left-description div p a:hover {
     text-decoration: none;
     text-transform: uppercase;
     color: deeppink;
@@ -76,9 +88,8 @@ body {
 
 .services_section-right-image:hover {
     opacity: 0.9;
-    color: rgba(246, 255, 168, 0.842);
     transform: scale(1.1) rotate3d(1.2, -0.5, 0.5, -10deg);
-    transition: all .3s;
+    transition: all .5s;
 }
 
 .services_section-right-description {
@@ -92,7 +103,8 @@ body {
 }
 
 .services_section-right-description h2,
-.services_section-right-description p {
+.services_section-right-description div,
+.services_section-right-description div p {
     text-align: right;
 }
 
@@ -111,49 +123,51 @@ body {
         flex-direction: column;
         margin : auto;
     }
-    .services_section-left-image {
+    .services_section-left-image,
+    .services_section-left-image a {
         display: flex;
         justify-content: center;
-        margin: center;
+        margin: 5px auto;
     }
-
-    .services_section-left-image a,
     .services_section-left-image a img {
         padding: 10px 5px;
         max-width: 80%;
-        margin: center;
+        margin: auto;
     }
     .services_section-left-image:hover {
         transform: none;
+        scale: 1.1;
     }
     .services_section-left-description,
     .services_section-left-description h2 {
         margin: auto;
         justify-content: space-around;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
-    .services_section-left-description p {
+    #services_section-left-description-wedding-text,
+    .services_section-left-description-wedding-contact,
+    #services_section-left-description-halloween-text,
+    .services_section-left-description-halloween-contact {
         display: none;
     }
-
     .services_section-right {
         flex-direction: column;
         margin : auto;
     }
-    .services_section-right-image {
+    .services_section-right-image,
+    .services_section-right-image a {
         display: flex;
         justify-content: center;
-        margin: center;
+        margin: 5px auto;
     }
-
-    .services_section-right-image a,
     .services_section-right-image a img {
         padding: 10px 5px;
         max-width: 80%;
-        margin: center;
+        margin: auto;
     }
     .services_section-right-image:hover {
         transform: none;
+        scale: 1.1;
     }
     .services_section-right-description,
     .services_section-right-description h2 {
@@ -162,7 +176,10 @@ body {
         padding-bottom: 30px;
         text-align: center;
     }
-    .services_section-right-description p {
+    #services_section-right-description-love-text,
+    .services_section-right-description-love-contact,
+    #services_section-right-description-house-text,
+    .services_section-right-description-house-contact {
         display: none;
     }
 }
