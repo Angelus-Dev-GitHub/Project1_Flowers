@@ -1,6 +1,8 @@
 @media screen and (min-width: 450px) {
     body {
         font-family: 'Raleway', sans-serif;
+        background-color: #F6EFEF;
+
     }
     .page-container {
         max-width: 1200px;
@@ -148,6 +150,7 @@
     }
     body {
         font-family: 'Raleway', sans-serif;
+        background-color: #F6EFEF;
     }
     .page-container {
         max-width: 300px;
