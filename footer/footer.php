@@ -9,10 +9,11 @@
 </head>
 <body>
     <main>
-        <footer class="footer">
+        <footer >
+            <section class="footer">
             <section class="footer_social_network">
                 <div class="footer_social_networks-message">
-                    <h3>Retrouvez nous sur <br> nos réseaux:</h3>
+                    <h3> Suivez nous </h3>
                 </div>
                 <div class="footer_social_network-instagram">
                     <img
@@ -42,23 +43,34 @@
             </section>
             <section class="footer_our_shops">
                 <div class="footer_our_shops-h3">
-                    <h3>Nos magasins :</h3>
+                    <h3> Contactez nous </h3>
                 </div>
                 <div class="footer_our_shops-p">
-                    <p>6 avenue thiers, Bordeaux <br> 1 Bis allée du 8 mai 1945, Gaillan-en-Médoc</p>
+                    02 31 81 74 55
+                </div>
+                <div class="footer_our_shops-p">
+                     dunefleuralautre@yahoo.fr
+                </div>
+                <div class="footer_our_shops-p">
+                    <p>6 avenue thiers, 33100 Bordeaux, France <br> 1 Bis allée du 8 mai 1945, 33340 Lesparre-Médoc, France</p>
                 </div>
             </section>
             <section class="footer_about_us">
+                    <h3>Liens utiles</h3>
                     <ul>
 
                         <li>F.A.Q</li>
                         <li>À propos de nous</li>
-                        <li>Nous contacter</li>
+                        <li>Portfolio </li>
                     </ul>
 
 
             </section>
-    </footer>
+
+            </section>
+            <p class="copyright"> Copyright © 2020 D'une fleur à l'autre. Tous droits réservés | Conditions
+            Générales d'Utilisation | Charte Données personnelles </p>
+        </footer>
 </main>
 </body>
 </html>
