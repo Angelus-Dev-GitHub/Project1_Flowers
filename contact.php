@@ -1,15 +1,10 @@
-<?php ?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D'une fleur à l'autre</title>
-    <link type="text/css" rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="style_index.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="./footer/footer.css">
     <link rel="stylesheet" href="nav.css">
     <<style>
@@ -99,9 +94,9 @@
                         </div>
                         <div  class="button">
                             <input type="submit" value="Submit">
-                            <script src="contact.js"></script>
+                            </form>
                         </div>
-                        </form>
+
         </div>
     </section>
 <footer>

@@ -21,7 +21,7 @@
 
 
     <section class="shop_section">
-        <h1 class="title-of-the-page">BOUTIQUE</h1>
+        <h1 class="title-of-the-page">Boutique</h1>
         <article class="shop_article">
             <div class="shop_article-presentation">
                 <p>Professionnel et compétant, votre fleuriste 'D'une fleur à l'autre' est présent à BORDEAUX (33100) saura vous écouter et vous conseiller dans le choix de vos compositions florales <br></p>
@@ -43,7 +43,7 @@
             </div>
             <h2 class="shop_aside-title22">HORAIRES</h2>
             <div class="shop_aside-hours">
-                <p>Nous sommes ouvert du <strong> Lundi au Samedi de 09h00 à 19h30</strong>. Fermé le Dimanche</p>
+                <p>Nous sommes ouvert du <strong> Lundi au Samedi de 09h00 à 19h30</strong>.<br> Fermé le Dimanche</p>
             </div>
         </aside>
         </article>

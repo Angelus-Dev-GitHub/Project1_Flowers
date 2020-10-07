@@ -2,6 +2,7 @@
     body {
         max-width: 1200px;
         margin: auto;
+        list-style-type: none;
 
     }
     .contact_header {
@@ -24,9 +25,7 @@
         font-family: cursive;
         font-size: 50px;
         font-style: normal;
-        font-weight: 400;
-        text-transform: initial;
-        line-height: 40px;
+        font-weight: normal;
         letter-spacing: .4px;
         color: #71bf45;
         text-align: center;
@@ -81,11 +80,6 @@
     }
 
 
-    body {
-        max-width: 1200px;
-        margin: auto;
-
-    }
 
     .contact_header {
         background-image: url("https://cdn.pixabay.com/photo/2014/04/14/20/11/japanese-cherry-trees-324175_960_720.jpg");
@@ -106,7 +100,6 @@
         font-family: cursive;
         font-size: 50px;
         font-style: normal;
-        font-weight: 400;
         text-transform: initial;
         line-height: 40px;
         letter-spacing: .4px;
