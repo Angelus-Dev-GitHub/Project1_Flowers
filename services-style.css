@@ -13,8 +13,27 @@
 body {
     font-family: var(--textBodyFont);
     color: var(--textBodyColor);
+    background-color: #F6EFEF;
     max-width: 1200px;
     margin: 8px auto;
+}
+
+h1 {
+    font-family: var(--grandTitleFont);
+    color: var(--grandTitleColor);
+    font-size: var(--grandTitleSize);
+}
+
+h2 {
+    font-family: var(--mediumTitleFont);
+    color: var(--mediumTitleColor);
+    font-size: var(--mediumTitleSize);
+}
+
+div, p {
+    font-family: var(--textBodyFont);
+    color: var(--textBodyColor);
+    font-size: var(--textBodySize);
 }
 
 .services_title {
