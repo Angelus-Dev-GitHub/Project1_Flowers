@@ -4,11 +4,11 @@
         margin: auto;
 
     }
-
     .contact_header {
         background-image: url("https://cdn.pixabay.com/photo/2014/04/14/20/11/japanese-cherry-trees-324175_960_720.jpg");
         height: 500px;
         background-size: cover;
+        border-radius: 10px 10px 10px 10px;
 
     }
 
@@ -30,6 +30,7 @@
         letter-spacing: .4px;
         color: #71bf45;
         text-align: center;
+
     }
 
     .contact-map-and-form {

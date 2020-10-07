@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="style_index.css">
     <link rel="stylesheet" href="./footer/footer.css">
     <link rel="stylesheet" href="nav.css">
+    <<style>
+        @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Raleway&display=swap');
+    </style>
 
 </head>
 <body>
@@ -29,7 +32,7 @@
 
     <div class="contact_contact-us">
 
-            <div class="contact_contact_us-form-and-information">
+
                 <div class="contact_contact_us-our-contact-information">
                     <h2>
                         Nos coordonnées
@@ -65,7 +68,7 @@
                         <h2>Ecrivez nous</h2>
                     </div>
                     <div class="contact_contact_us-formulaire">
-                        <form id="contactForm" ">
+                        <form id="contactForm" >
 
                             <label  for="nom">Nom :</label>
                             <input  type="text"  id="nom"  name="user_name" required>
@@ -85,6 +88,7 @@
                         <div class="contact_contact_us_formulaire-option">
                                     <label for="select">Sujet </label>
                                     <select name = "select" id= "select">
+                                        <option> Sélectionnez un sujet
                                         <option> Problème de livraison
                                         <option> Mariage
                                         <option> Enterrement
