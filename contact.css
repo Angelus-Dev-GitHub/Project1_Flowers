@@ -12,9 +12,12 @@ body{
         }
         .inputItems{
             margin-bottom: 20px;
+            width: 300px;
         }
+
         #message{
             height: 80px;
+
         }
 
         #thanksMessage{
@@ -40,18 +43,6 @@ body{
             color: maroon;
             padding-top: 200px;
         }
-
-        .contact h2 {
-            font-family: cursive;
-            font-size: 50px;
-            font-style: normal;
-            font-weight: normal;
-            letter-spacing: .4px;
-            color: #7FB299;
-            text-align: center;
-
-        }
-
         .contact-map-and-form {
             display: flex;
             flex-direction: row;
@@ -75,6 +66,18 @@ body{
             justify-content: center;
         }
         #returnToForm{
+            height: 40px;
+            background-color: #afcfbf;
+            text-transform: uppercase;
+            border: 0px solid black;
+            border-radius: 3px;
+            cursor: pointer;
+            box-shadow: 1px 1px 2px 1px grey;
+            width: 120px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        #formSubmission{
             height: 40px;
             background-color: #afcfbf;
             text-transform: uppercase;
@@ -112,22 +115,6 @@ body{
             width: 1000px;
             justify-content: center;
             padding-left: 90px;
-        }
-
-
-        .contact_header {
-            background-image: url("https://images.unsplash.com/photo-1476595461800-421569e956f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
-            height: 500px;
-            background-size: cover;
-
-        }
-
-        .contact_header h1 {
-            font-family: 'Calligraffitti', cursive;
-            text-align: center;
-            font-size: 80px;
-            color: maroon;
-            padding-top: 200px;
         }
 
         .contact h2 {
@@ -205,7 +192,6 @@ body{
             border-radius: 10px 10px 10px 10px;
 
         }
-
         .contact_header h1 {
             font-family: 'Calligraffitti', cursive;
             text-align: center;
@@ -213,18 +199,6 @@ body{
             color: maroon;
             padding-top: 200px;
         }
-
-        .contact h2 {
-            font-family: cursive;
-            font-size: 50px;
-            font-style: normal;
-            font-weight: normal;
-            letter-spacing: .4px;
-            color: #7FB299;
-            text-align: center;
-
-        }
-
         .contact-map-and-form {
             display: flex;
             flex-direction: row;
@@ -272,22 +246,6 @@ body{
 
         }
 
-
-        .contact_header {
-            background-image: url("https://cdn.pixabay.com/photo/2014/04/14/20/11/japanese-cherry-trees-324175_960_720.jpg");
-            max-height: 500px;
-            background-size: cover;
-
-        }
-
-        .contact_header h1 {
-            font-family: 'Calligraffitti', cursive;
-            text-align: center;
-            font-size: 80px;
-            color: maroon;
-            padding-top: 200px;
-        }
-
         .contact h2 {
             font-family: cursive;
             font-size: 50px;
@@ -310,6 +268,18 @@ body{
             border-radius: 3px;
             cursor: pointer;
             box-shadow: 1px 1px 2px 1px grey;
+        }
+        #formSubmission{
+            height: 40px;
+            background-color: #afcfbf;
+            text-transform: uppercase;
+            border: 0px solid black;
+            border-radius: 3px;
+            cursor: pointer;
+            box-shadow: 1px 1px 2px 1px grey;
+            width: 120px;
+            margin-top: 40px;
+            margin-bottom: 40px;
         }
 
 

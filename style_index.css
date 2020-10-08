@@ -3,6 +3,7 @@ body {
     background-color: #F6EFEF;
 }
 
+
 .index_section {
     width: 1200px;
     margin: auto;
@@ -50,7 +51,6 @@ h2{
     font-size: 15px;
 
 }
-/*-----------------------*/
 .index_composition_bouquet img {
     width: 400px;
     height: 400px;
