@@ -1,6 +1,8 @@
-*body {
+body {
     font-family: 'Raleway', sans-serif;
+    background-color: #F6EFEF;
 }
+
 
 .index_section {
     width: 1200px;
@@ -44,19 +46,11 @@ h2{
     align-items: center;
 }
 
-/*.index_composition_bouquet img {
-    width: 600px;
-    height: 600px;
-    justify-content: center;
-    border-radius: 30%;
-}*/
-
 .index_composition_bouquet h3{
     text-align: center;
     font-size: 15px;
 
 }
-/*-----------------------*/
 .index_composition_bouquet img {
     width: 400px;
     height: 400px;
@@ -70,10 +64,10 @@ h2{
 }
 
 .index_composition_bouquet:hover img {
-    width: 600px; /* on affiche l'image au carré */
+    width: 600px;
     height: 600px;
-    border-radius: 30%;  /* on arrondit l'image */
-    -webkit-transform: rotate(360deg); /* rotation de l'image */
+    border-radius: 30%;
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
 
@@ -109,10 +103,10 @@ h2{
     }
 
     .index_composition_bouquet:hover img {
-        width: 320px; /* on affiche l'image au carré */
+        width: 320px;
         height: 320px;
-        border-radius: 30%; /* on arrondit l'image */
-        -webkit-transform: none; /* rotation de l'image */
+        border-radius: 30%;
+        -webkit-transform: none;
         transform: none;
     }
 

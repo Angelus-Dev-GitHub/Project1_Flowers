@@ -84,7 +84,9 @@
                         <option> Cadeau
                         <option> Évenement
                         <option> Autre
+                    </select>
                 </div>
+
                 <div class="button">
                     <input id="formSubmission" type="submit" value="Envoyer">
                 </div>
